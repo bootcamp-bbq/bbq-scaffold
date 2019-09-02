@@ -4,23 +4,23 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:51829",
-      "sslPort": 44380
+      "applicationUrl": "http://localhost:22923",
+      "sslPort": 44325
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/queries",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "bbq.Scaffold": {
+    "bbq.Scaffold.Web": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+        "launchUrl": "api/queries",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
